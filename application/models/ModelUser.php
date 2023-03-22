@@ -3,13 +3,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class ModelUser extends CI_Model
 {
-    public function joinKategoriBuku($where) 
-    { 
-        $this->db->from('buku'); 
-        $this->db->join('kategori','kategori.id = buku.id_kategori'); 
-        $this->db->where($where); 
-        return $this->db->get(); 
-    } 
     public function simpanData($data = null)
     {
         $this->db->insert('user', $data);
