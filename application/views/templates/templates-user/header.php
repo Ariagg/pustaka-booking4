@@ -24,13 +24,11 @@
                         <?php
                         if (!empty($this->session->userdata('email'))) { ?>
                             <a class="nav-item nav-link" href="#">Booking Buku</a>
-                            <a class="nav-item nav-link" href="<?= base_url('member/myprofil'); ?>">Profil Saya</a>
+                            <a class="nav-item nav-link" href="<?= base_url('member/myprofil'); ?>"> Profil Saya</a>
                             <a class="nav-item nav-link" href="<?= base_url('member/logout'); ?>"><i class="fas fw fa-login"></i> Log Out</a>
                         <?php } else { ?>
-                        
-                            <a class="nav-item nav-link" data-toogle="modal" data-target="#daftarModal" href="#"><i class="fas fw fa-login"></i>Daftar</a>
-                            <a class="nav-item nav-link" data-toogle="modal" data-target="#loginModal" href="#"><i class="fas fw fa-login"></i>Login</a>
-                            <a class="nav-item nav-link" href="<?= base_url('member/logout'); ?>"><i class="fas fw fa-login"></i> Log Out</a>
+                            <a class="nav-item nav-link" data-toogle="modal" data-target="#daftarModal" href="#"><i class="fas fw fa-login"></i> Daftar</a>
+                            <a class="nav-item nav-link" data-toogle="modal" data-target="#loginModal" href="#"><i class="fas fw fa-login"></i> Login</a>
                         <?php } ?>
                         <span class="nav-item nav-link nav-right" style="display:block; margin-left:20px:">Selamat Datang <b><?= $user; ?></b></span>                                     
                     </div>
