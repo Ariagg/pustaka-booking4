@@ -83,7 +83,7 @@
             </div>
         </div>
         <div class="modal-body">
-            <span class="aler allert-message alert-success">Waktu Pengambilan BUku 1x24 jam dari Bookin!!!</span>
+            <span class="aler allert-message alert-success">Waktu Pengambilan BUku 1x24 jam dari Booking!!!</span>
         </div>
         <div class="modal-footer">
             <a class="btn btn-outline-info" href="<?= base_url(); ?>">Ok</a>
